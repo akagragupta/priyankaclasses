@@ -1,0 +1,37 @@
+.tophome{
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.midhome{
+  position: absolute;
+  top: 56.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bottomhome{
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+p.foottext:hover{
+  color:orange;
+}
+
+h1.foottext:hover{
+  color:orange;
+}

@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" >
+	<link rel="stylesheet" type="text/css" href="{% static 'css/About.css' %}">
+</head>
+<body>
+	<div class="ui secondary pointing menu">
+	  <a class="orange active item" href="{% url 'pc:About' %}">About Us</a>
+	  <a class="orange item" href="{% url 'pc:Admissions' %}">Admissions</a>
+	  <a class="orange item" href="{% url 'pc:Curriculum' %}">Curriculum</a>
+	  <a class="orange item" href="{% url 'pc:Fees' %}">Fees</a>
+	  <a class="orange item" href="{% url 'pc:Contact' %}">Contact-Us</a>
+	  <div class="right menu">
+	    <a class="ui item">Logout</a>
+	  </div>
+	</div>
+	<div class="ui fluid container">
+		<img class="ui fluid image" src="http://convertimage.me/gal/20140108-183632-kythu.jpg">
+		<p class="fluidtext tophome">PRIYANKA CLASSES</p>		
+		<div class="fluidtext midhome">MAGIC WITH MATHS</div>
+		<button class="ui inverted orange button large bottomhome">Get Admission</button>
+	</div>
+	<div class="ui segment fluid container">
+	  	<div class="ui two column very relaxed stackable grid">
+		    <div class="column">
+		      	<h2 class="ui header">
+				  	<img src="http://www.gettingsmart.com/wp-content/uploads/2011/12/teacher-effectiveness.jpg">
+				 	<div class="content">
+				    PRIYANKA GUPTA
+				    <div class=" sub header ">CEO and Founder of Priyanka Classes</div>
+				  	</div>
+				</h2>
+				</div>
+		    <div class="ui fluid image column">
+		      <img src="http://www.gettingsmart.com/wp-content/uploads/2011/12/teacher-effectiveness.jpg">
+		    </div>
+	  	</div>
+	</div>
+	<div class="ui segment fluid container">
+	  	<div class="ui two column very relaxed stackable grid">
+		    <div class="column">
+		      	<h2 class="ui header">
+				  	<img src="http://www.gettingsmart.com/wp-content/uploads/2011/12/teacher-effectiveness.jpg">
+				 	<div class="content">
+				    ATUL GUPTA
+				    <div class=" sub header ">Director of Priyanka Classes</div>
+				  	</div>
+				</h2>
+				</div>
+		    <div class="ui fluid image column">
+		      <img src="http://www.gettingsmart.com/wp-content/uploads/2011/12/teacher-effectiveness.jpg">
+		    </div>
+	  	</div>
+	</div>
+
+
+
+
+	<div class="ui inverted segment fluid container ">
+	  	<div class="ui column grid centered stackable ">
+		    <div class="four wide column ">
+		    <h1 class="foottext">Our Location</h1> 
+		    <p class="foottext"><i class="big orange car icon"></i>B-18-E/1 Todarmal Marg, Banipark, Jaipur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;302016</p>
+		    </div>
+
+		    <div class="four wide column">
+		    <h1 class="foottext">Connect</h1> 
+		    <p class="foottext"><i class="big orange envelope icon"></i>priyankaclasses@gmail.com</p>
+		    </div>
+
+		    <div class="four wide column">
+		    <h1 class="foottext" class="foottext" class="foottext">Contact-Us</h1>
+		    <p class="foottext"><i class="big orange phone square icon"></i>Atul Gupta: +91 8209-629-915<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Priyanka Classes: +91 7568-378-858</p>
+		    </div>
+	  	</div>
+	</div>
+</body>
+</html>
+
+
+
+ 
+ 
